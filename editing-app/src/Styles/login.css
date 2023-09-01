@@ -1,0 +1,76 @@
+@import '../App.css';
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 100vh;
+}
+.form-container{
+    display: block;
+    margin-bottom: 5rem;
+}
+form {
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+    border:1px solid #21262d;
+}
+
+.login-input-element {
+    width: 250px;
+    height: 18px;
+    font-family: karla;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(61, 58, 58);
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    border: none
+}
+
+.login-input-element::placeholder {
+    color: black;
+}
+
+.login-error-message {
+    color: red;
+    font-family: karla;
+    font-size: 12px;
+    position: relative;
+    margin-top: 2px;
+    font-weight: 600;
+    margin-bottom: -12px;
+}
+
+.login-submit {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.login-title {
+    font-size: 25px;
+    text-align: justify;
+    text-align: center;
+    font-weight: 600;
+
+    font-family: karla;
+    padding: 10px 57px 20px 30px;
+    color:black;
+}
+
+.error-container {
+
+    color: rgb(255, 0, 0);
+    margin-right: 1.2rem;
+    text-align: center;
+    margin-bottom: -6px;
+}
+
+#show-password {
+    margin-left: -30px;
+}

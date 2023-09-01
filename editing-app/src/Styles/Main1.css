@@ -1,0 +1,9 @@
+.home-page {
+  background: url("https://tse4.mm.bing.net/th/id/OIF.r9GcZno8WZzru5AwP2em8Q?pid=ImgDet&rs=1")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+.btn-icon {
+  margin-right: 0.5rem;
+}

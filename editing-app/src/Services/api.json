@@ -1,0 +1,94 @@
+{
+  "articles": [
+    {
+      "content": "<ol><li><u>This is the </u><strong><em><u>content</u></em></strong><em><u> of the article.</u></em><u> hi</u></li></ol>",
+      "title": "Getting Started with React hi",
+      "id": "article1",
+      "authorName": "John",
+      "collaborators": [
+        1,
+        2
+      ],
+      "comments": [
+        {
+          "userId": 2,
+          "text": "Great article!"
+        },
+        {
+          "userId": 1,
+          "text": "Thank you!"
+        }
+      ]
+    },
+    {
+      "content": "<p>Firebase is a clo<strong>ud platform.</strong>..</p>",
+      "title": "Introduction to Firebase",
+      "id": "article2",
+      "authorName": "Jane",
+      "collaborators": [
+        2
+      ],
+      "comments": []
+    },
+    {
+      "content": "<ol><li>Hello</li></ol>",
+      "title": "getting started with firebase",
+      "id": "7e0d29ac-9a5f-465b-94e3-8178abea9b86",
+      "authorName": "sudha",
+      "collaborators": [],
+      "comments": []
+    },
+    {
+      "id": "ecad9514-a114-4809-9f53-7a38582bc65b",
+      "title": "Hello",
+      "content": "<p><strong>Hi</strong></p>",
+      "collaborators": [],
+      "comments": [],
+      "authorName": "surya"
+    }
+  ],
+  "userCredentials": [
+    {
+      "id": 1,
+      "name": "John",
+      "email": "john@gmail.com",
+      "role": "author",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "email": "jane@gmail.com",
+      "role": "editor",
+      "password": "123"
+    },
+    {
+      "id": 3,
+      "name": "Admin User",
+      "email": "admin@gmail.com",
+      "role": "admin",
+      "password": "123"
+    },
+    {
+      "id": 4,
+      "name": "sudha",
+      "email": "sudha@gmail.com",
+      "role": "author",
+      "password": "sudha"
+    },
+    {
+      "name": "sai",
+      "email": "sai@gmail.com",
+      "role": "author",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "name": "surya",
+      "email": "surya@gmail.com",
+      "role": "editor",
+      "password": "1234",
+      "id": 6
+    }
+  ]
+}
